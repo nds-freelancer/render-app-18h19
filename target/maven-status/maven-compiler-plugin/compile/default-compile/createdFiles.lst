@@ -1,3 +1,7 @@
+com\store\dao\impl\DatabaseConfig.class
 com\javawhizz\App\customer\CustomerController.class
 com\javawhizz\App\AppApplication.class
+com\store\dao\impl\UserDAOImpl.class
 com\javawhizz\App\customer\Customer.class
+com\store\dto\UserDto.class
+com\store\dao\UserDAO.class
