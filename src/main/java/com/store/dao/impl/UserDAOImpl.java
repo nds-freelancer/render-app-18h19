@@ -15,7 +15,7 @@ public class UserDAOImpl implements UserDAO{
 		UserDto lstCake = new UserDto();
 		try {
 
-			String query = "select * from user_info where userid=" + userid;
+			String query = "select * from users where userid=" + userid;
 			Statement stmt = DatabaseConfig.getConnection().createStatement();
 			ResultSet rs = stmt.executeQuery(query);
 			
